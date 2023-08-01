@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_MISF" model="aeegsi_energia.componente">
+            <field name="codice">MISF</field>
+            <field name="descrizione">Componente costo misura fisso (MIS1), di cui all'articolo 8</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_MISV" model="aeegsi_energia.componente">
+            <field name="codice">MISV</field>
+            <field name="descrizione">Componente costo misura variabile (MIS3), di cui all'articolo 8</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+    </data>
+</openerp>

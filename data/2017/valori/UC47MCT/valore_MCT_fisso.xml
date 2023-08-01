@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_MCTF_2017_1_01" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW per consumi annui fino a 1800 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3_minore1800"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MCTF_2017_1_02" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3_consumo2640"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_03" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3_consumooltre2640"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MCTF_2017_1_04" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW per consumi annui fino a 1800 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3_minore1800"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_05" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3_consumo2640"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_06" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3_consumooltre2640"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MCTF_2017_1_07" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: non residenti per consumi annui fino a 1800 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr_annuo1800"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_08" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: non residenti per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr_annuo2640"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_09" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera a)Utenza domestica in bassa tensione di cui: non residenti per consumi annui oltre 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr_annuooltre2640"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MCTF_2017_1_10" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_11" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera d)Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt_pd16_5"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MCTF_2017_1_12" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera d)Altre utenze in bassa tensione con potenza disponibile superiore a 16,5 kW</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt_pdmaggiore16_5_01"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MCTF_2017_1_13" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_14" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_15" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_16" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera i) Utenze in altissima tensione, inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_MCTF_2017_1_17" model="aeegsi_energia.valore">
+            <field name="descrizione">MCT per lettera j) Utenze in altissima tensione, uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_MCTF_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-12-31</field> <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>
+

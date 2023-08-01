@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- List View -->
+        <record id="aeegsi_energia_valore_tree_view" model="ir.ui.view">
+            <field name="name">aeegsi.energia.valore.tree.view</field>
+            <field name="model">aeegsi_energia.valore</field>
+            <field name="arch" type="xml">
+                <tree string="Valori">
+                    <field name="descrizione"/>
+                    <field name="colonna_id"/>
+                    <field name="regola_colonna_id"/>
+                    <field name="valore"/>
+                    <field name="data_inizio_validita"/>
+                    <field name="data_fine_validita"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- Form View -->
+        <record id="aeegsi_energia_valore_form_view" model="ir.ui.view">
+            <field name="name">aeegsi.energia.valore.form.view</field>
+            <field name="model">aeegsi_energia.valore</field>
+            <field name="arch" type="xml">
+                <form string="Valori" version="7.0">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="descrizione"/>
+                                <field name="tabella_id"/>
+                                <field name="riga_id"/>
+                                <field name="colonna_id"/>
+                                <field name="regola_colonna_id"/>
+                                <field name="valore"/>
+                                <field name="tipo_valore_euro"/>
+                                <field name="unita_di_misura_id"/>
+                                <field name="data_inizio_validita"/>
+                                <field name="data_fine_validita"/>
+                                <field name="creata_il"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="aeegsi_energia_valore_filter" model="ir.ui.view">
+            <field name="name">aeegsi.energia.valore.select.inherit.filter</field>
+            <field name="model">aeegsi_energia.valore</field>
+            <field name="arch" type="xml">
+                <search string="Cerca valore per:">
+                    <field name="descrizione"/>
+                    <field name="data_inizio_validita" />
+                    <field name="data_fine_validita" />
+                </search>
+            </field>
+        </record>
+
+
+        <!-- Action -->
+        <record id="action_aeegsi_energia_valore" model="ir.actions.act_window">
+            <field name="name">Valori</field>
+            <field name="res_model">aeegsi_energia.valore</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id"  eval="False"/>
+            <field name="context">{}</field>
+            <field name="help"></field>
+        </record>
+    </data>
+</openerp>

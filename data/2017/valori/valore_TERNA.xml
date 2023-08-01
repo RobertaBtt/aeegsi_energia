@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_TERNA_2017" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo a copertura dei costi riconosciuti per il funzionamento di Terna (articolo 46) anno 2016</field>
+            <field name="tabella_id" ref="tabella_9_art46_2017"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0398</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_DCP_2017" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo a copertura dei costi per la remunerazione della capacità produttiva (articolo 48) anno 2016</field>
+            <field name="tabella_id" ref="tabella_2_art48_2017"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0687</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_IC_2017" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo a copertura dei costi per la remunerazione del servizio di interrompibilità del carico (articolo 73) anno 2016</field>
+            <field name="tabella_id" ref="tabella_3_art73_2017"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.1037</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+    </data>
+</openerp>
+

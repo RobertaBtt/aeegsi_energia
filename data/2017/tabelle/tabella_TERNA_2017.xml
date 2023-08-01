@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="tabella_9_art46_2017" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 9: Corrispettivo a copertura dei costi riconosciuti per il funzionamento di Terna (articolo 46)</field>
+            <field name="nome_file">815-16tab.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/815-16tab.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_terna_art46"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_2_art48_2017" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2: Corrispettivo a copertura dei costi per la remunerazione della capacità produttiva (articolo 48)</field>
+            <field name="nome_file">815-16tab.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/815-16tab.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_terna_art48"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_3_art73_2017" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 3: Corrispettivo a copertura dei costi per la remunerazione del servizio di interrompibilità del carico (articolo 73)</field>
+            <field name="nome_file">815-16tab.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/815-16tab.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_terna_art73"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+    </data>
+</openerp>

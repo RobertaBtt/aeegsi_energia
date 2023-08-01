@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+         <record id="componente_ArimPotenza_nonforteconsumo" model="aeegsi_energia.componente">
+            <field name="codice">Arim</field>
+            <field name="descrizione">Componente tariffaria Arim Quota Potenza per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_potenza"></field>
+        </record>
+        <record id="componente_AsosPotenza_nonforteconsumo" model="aeegsi_energia.componente">
+            <field name="codice">Asos</field>
+            <field name="descrizione">Componente tariffaria Asos Quota Potenza per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_potenza"></field>
+        </record>
+
+        <!--Nella titolarità di imprese a forte consumo di energia-->
+
+        <record id="componente_ArimPotenza_forteconsumo" model="aeegsi_energia.componente">
+            <field name="codice">Arim</field>
+            <field name="descrizione">Componente tariffaria Arim Quota Potenza per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_AsosPotenza_forteconsumo" model="aeegsi_energia.componente">
+            <field name="codice">Asos</field>
+            <field name="descrizione">Componente tariffaria Asos per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_potenza"></field>
+        </record>
+
+    </data>
+</openerp>

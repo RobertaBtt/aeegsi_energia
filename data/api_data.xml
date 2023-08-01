@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <!-- Url AEEGSI API-->
+    	<record id="aeegsi_energia_api_url_root" model="ir.config_parameter">
+            <field name="key">api.url.root</field>
+            <field name="value">http://localhost:8069/web/aeegsi</field>
+        </record>
+
+        <record id="aeegsi_energia_api_url_valore" model="ir.config_parameter">
+            <field name="key">api.url.valore</field>
+            <field name="value">/valore/query</field>
+        </record>
+
+    </data>
+</openerp>

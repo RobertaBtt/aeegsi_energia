@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="tabella_5_PER_50" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 5: Corrispettivi per prelievi di energia reattiva</field>
+            <field name="nome_file">607-13tabTIT.xls</field>
+            <field name="url_file">www.autorita.energia.it/allegati/docs/13/607-13tabTIT.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">4</field>
+            <field name="componente_id" ref="componente_PER_01"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_5_PER_75" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 5: Corrispettivi per prelievi di energia reattiva</field>
+            <field name="nome_file">607-13tabTIT.xls</field>
+            <field name="url_file">www.autorita.energia.it/allegati/docs/13/607-13tabTIT.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">4</field>
+            <field name="componente_id" ref="componente_PER_02"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_10_T1" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 10 - Componente Trasporto Quota Fissa (τ1) della tariffa D2 di cui al comma 31.1</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_10_T2" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 10 - Componente Trasporto Quota Potenza (τ2) della tariffa D2 di cui al comma 31.1</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TP"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_TIT_10_T3" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 10 - Componente Trasporto Quota Energia (τ3) della tariffa D2 di cui al comma 31.1</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TE"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_TIT_11_T1" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 - Componente Trasporto Quota Fissa (τ1) della tariffa D3 di cui al comma 31.1</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_11_T2" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 -  Componente Trasporto Quota Potenza (τ2) della tariffa D3 di cui al comma 31.1</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TP"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_TIT_11_T3" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 - Componente Trasporto Quota Energia (τ3) della tariffa D3 di cui al comma 31.1</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TE"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_4F" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 4 - Componente Trasporto Quota Fissa articolo 8</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_4P" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 4 - Componente Trasporto Quota Potenza articolo 8</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TP"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_4E" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 4 - Componente Trasporto Quota Energia articolo 8</field>
+            <field name="nome_file">206_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/206_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TE"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+        <record id="tabella_TIT_TRASe" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 : Componenti TRAS per il servizio di trasmissione per i clienti finali</field>
+            <field name="nome_file">653-14tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/14/653-14tab.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_TRAS_e"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+    </data>
+</openerp>

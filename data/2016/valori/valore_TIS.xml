@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+	
+        <record id="valore_TIS_EO_01_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Gennaio 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0038061</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-01-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_02_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Febbraio 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.002264</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-02-01</field>
+            <field name="data_fine_validita">2016-02-29</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_03_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Marzo 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0014142</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-01</field>
+            <field name="data_fine_validita">2016-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+		<record id="valore_TIS_EO_04_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Aprile 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0021643</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-04-01</field>
+            <field name="data_fine_validita">2016-04-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_05_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Maggio 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0036036</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-05-01</field>
+            <field name="data_fine_validita">2016-05-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_06_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Giugno 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0087203</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-06-01</field>
+            <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_07_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Luglio 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0010211</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-07-01</field>
+            <field name="data_fine_validita">2016-07-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_08_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Agosto 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0009594</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-08-01</field>
+            <field name="data_fine_validita">2016-08-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_09_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Settembre 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0006225</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-09-01</field>
+            <field name="data_fine_validita">2016-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_10_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Ottobre 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0007601</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-10-01</field>
+            <field name="data_fine_validita">2016-10-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_EO_11_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Novembre 2016 per modulazione produzione eolica</field>
+            <field name="tabella_id" ref="tabella_art_44bis"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0091082</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-11-01</field>
+            <field name="data_fine_validita">2016-11-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_01_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Gennaio 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2808501</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-01-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		 <record id="valore_TIS_SIC_02_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Febbraio 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2807162</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-02-01</field>
+            <field name="data_fine_validita">2016-02-29</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		 <record id="valore_TIS_SIC_03_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Marzo 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.28</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-01</field>
+            <field name="data_fine_validita">2016-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_04_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Aprile 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.28</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-04-01</field>
+            <field name="data_fine_validita">2016-04-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_05_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Maggio 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2804180</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-05-01</field>
+            <field name="data_fine_validita">2016-05-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_06_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Giugno 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2810062</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-06-01</field>
+            <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_07_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Luglio 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2231009</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-07-01</field>
+            <field name="data_fine_validita">2016-07-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_08_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Agosto 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2228834</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-08-01</field>
+            <field name="data_fine_validita">2016-08-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_09_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Settembre 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2228374</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-09-01</field>
+            <field name="data_fine_validita">2016-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_10_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Ottobre 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2225</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-10-01</field>
+            <field name="data_fine_validita">2016-10-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SIC_11_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario relativo al mese di Novembre 2016 per la sicurezza del sistema</field>
+            <field name="tabella_id" ref="tabella_art_45"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2225212</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-11-01</field>
+            <field name="data_fine_validita">2016-11-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+		<record id="valore_TIS_SALV_2016" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario di reintegrazione oneri salvaguardia di cui all’articolo 25bis</field>
+            <field name="tabella_id" ref="tabella_11_25bis_2016"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0801</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_01" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per BT con pot. disponibile &lt;= 55kW </field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_bt_55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0.007</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_02" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per MT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_mt_55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_03" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per AT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_at_55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_04" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per AAT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_aat_55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_05" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per BT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_bt_oltre55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_06" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per MT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_mt_oltre55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_07" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per AT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_at_oltre55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+             <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TIS_AGM_2016_08" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2 per AAT con pot. disponibile &gt; 55kW</field>
+            <field name="tabella_id" ref="tabella_art_15_2016"></field>
+            <field name="riga_id" ref="riga_generica_aat_oltre55"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1.55</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2016-01-01</field>
+            <field name="data_fine_validita">2016-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+
+
+    </data>
+</openerp>

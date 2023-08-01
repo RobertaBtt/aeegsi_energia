@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="tabella_TIC_subentro_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2 - Contributi in quota fissa a copertura di oneri amministrativi</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_sub"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIC_voltura_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2 - Contributi in quota fissa a copertura di oneri amministrativi</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_vol"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIC_aumento_pot_BT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_apbt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIC_dim_pot_BT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_dpbt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIC_aumento_pot_MT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 3 - Contributi per la realizzazione di connessioni permanenti ordinarie in media tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">22</field>
+            <field name="componente_id" ref="componente_apmt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_dim_pot_MT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 3 - Contributi per la realizzazione di connessioni permanenti ordinarie inmedia tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">22</field>
+            <field name="componente_id" ref="componente_dpmt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_ver_tensione_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 7 - Contributi per altre prestazioni specifiche</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">24</field>
+            <field name="componente_id" ref="componente_vtgm"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_ver_funzionamento_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 7 - Contributi per altre prestazioni specifiche</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">24</field>
+            <field name="componente_id" ref="componente_vgm"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_riallaccio_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 7 - Contributi per altre prestazioni specifiche</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">24</field>
+            <field name="componente_id" ref="componente_ri"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_nuovo3_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_n3"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_nuovo45_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_n45"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_nuovo6_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_n6"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_disc_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 7 - Contributi per altre prestazioni specifiche</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">24</field>
+            <field name="componente_id" ref="componente_d"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_mod_cond_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_mc"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_aumento_fasi_BT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_afbt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIC_dim_fasi_BT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_dfbt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_aumento_fasi_MT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_afmt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_dim_fasi_MT_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 - Contributi per la realizzazione di connessioni permanenti ordinarie in bassa tensione</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_dfmt"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_TIC_diritti_fisso_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2 - Contributi in quota fissa a copertura di oneri amministrativi</field>
+            <field name="nome_file">654-15all_tic.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15allc_tic.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">21</field>
+            <field name="componente_id" ref="componente_idf"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>

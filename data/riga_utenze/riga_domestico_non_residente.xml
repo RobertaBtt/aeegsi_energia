@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="riga_dnr" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+        </record>
+
+        <record id="riga_dnr_annuo900" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui da 0 a 900 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">0</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">900</field>
+        </record>
+
+        <record id="riga_dnr_consumo900_1800" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti residenti per consumi annui oltre 900 kWh e fino a 1800 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">901</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">1800</field>
+        </record>
+
+
+        <record id="riga_dnr_annuo1800" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui fino a 1800 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">0</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">1800</field>
+            
+        </record>
+
+        <record id="riga_dnr_annuo2640" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">1801</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">2640</field>
+        </record>
+
+        <record id="riga_dnr_annuooltre2640" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui oltre 2640 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">2640</field>
+        </record>
+
+        <record id="riga_dnr_annuo_2641_3540" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui oltre 2640 kWh e fino a 3540 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">2641</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">3540</field>
+        </record>
+
+
+
+        <record id="riga_dnr_consumo3541_4440" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui oltre 3540 kWh e fino a 4440 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">3541</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">4440</field>
+        </record>
+
+        <record id="riga_dnr_annuooltre4440" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione non residenti per consumi annui oltre 4440 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_non_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">4441</field>
+
+        </record>
+    </data>
+</openerp>

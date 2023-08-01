@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="riga_bt_ill_pubblica" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tipo_uso_id" ref="tipo_uso_illuminazione_pubblica"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            
+        </record>
+
+        <record id="riga_mt_ill_pubblica" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera b)	Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tipo_uso_id" ref="tipo_uso_illuminazione_pubblica"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_media"></field>
+            
+        </record>
+
+
+        <record id="riga_ricarica_pubblica" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera c)	Utenze in bassa tensione per alimentazione infrastrutture di ricarica pubblica di veicoli elettrici</field>
+            <field name="tipo_uso_id" ref="tipo_uso_illuminazione_pubblica"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            
+        </record>
+
+
+    </data>
+</openerp>

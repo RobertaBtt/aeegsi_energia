@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="tabella_2_UC3V_2016_4_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2: Componente tariffario UC3 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">534-16tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/352-16tab.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_UC3V"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_2_UC3F_2016_4_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2: Componente tariffario UC3 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">534-16tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/352-16tab.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_UC3F"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_2_UC6V_2016_4_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2: Componente tariffario UC6 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">534-16tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/352-16tab.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_UC6V"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_2_UC6F_2016_4_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2: Componente tariffario UC6 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">534-16tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/352-16tab.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_UC6F"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_2_UC6P_2016_3_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 2: Componente tariffario UC6 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">352-16tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/16/352-16tab.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_UC6P"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+    </data>
+</openerp>

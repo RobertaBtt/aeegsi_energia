@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="riga_generica" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_non_specificata"></field>
+        </record>
+
+        <!--Riga tensioni con potenza disponibile <= 55 kW-->
+
+        <record id="riga_generica_bt_55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Bassa Tensione con potenza disponibile &lt;= 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_disponibile_limite_superiore">&lt;=</field>
+            <field name="potenza_disponibile_limite_superiore">55</field>
+        </record>
+
+        <record id="riga_generica_mt_55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Media Tensione con potenza disponibile &lt;= 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_media"></field>
+            <field name="operatore_potenza_disponibile_limite_superiore">&lt;=</field>
+            <field name="potenza_disponibile_limite_superiore">55</field>
+        </record>
+
+        <record id="riga_generica_at_55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Alta Tensione con potenza disponibile &lt;= 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_alta"></field>
+            <field name="operatore_potenza_disponibile_limite_superiore">&lt;=</field>
+            <field name="potenza_disponibile_limite_superiore">55</field>
+        </record>
+
+        <record id="riga_generica_aat_55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Altissima Tensione con potenza disponibile &lt;= 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_altissima"></field>
+            <field name="operatore_potenza_disponibile_limite_superiore">&lt;=</field>
+            <field name="potenza_disponibile_limite_superiore">55</field>
+        </record>
+
+
+        <!--Riga tensioni con potenza disponibile > 55 kW-->
+
+        <record id="riga_generica_bt_oltre55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Bassa Tensione con potenza disponibile &gt; 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_disponibile_limite_inferiore">&gt;</field>
+            <field name="potenza_disponibile_limite_inferiore">55</field>
+        </record>
+
+        <record id="riga_generica_mt_oltre55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Media Tensione con potenza disponibile &gt; 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_media"></field>
+            <field name="operatore_potenza_disponibile_limite_inferiore">&gt;</field>
+            <field name="potenza_disponibile_limite_inferiore">55</field>
+        </record>
+
+        <record id="riga_generica_at_oltre55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Alta Tensione con potenza disponibile &gt; 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_alta"></field>
+            <field name="operatore_potenza_disponibile_limite_inferiore">&gt;</field>
+            <field name="potenza_disponibile_limite_inferiore">55</field>
+        </record>
+
+        <record id="riga_generica_aat_oltre55" model="aeegsi_energia.riga">
+            <field name="descrizione">Utente generico Altissima Tensione con potenza disponibile &gt; 55 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_non_specificato"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_altissima"></field>
+            <field name="operatore_potenza_disponibile_limite_inferiore">&gt;</field>
+            <field name="potenza_disponibile_limite_inferiore">55</field>
+        </record>
+
+
+    </data>
+</openerp>
+

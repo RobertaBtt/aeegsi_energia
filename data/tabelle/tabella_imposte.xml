@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="tabella_accise" model="aeegsi_energia.tabella">
+            <field name="titolo">ACCISA - Imposta erariale</field>
+            <field name="nome_file">eep38.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati/ele/eep38.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_accise"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_iva" model="aeegsi_energia.tabella">
+            <field name="titolo">IVA</field>
+            <field name="nome_file">eep38.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati/ele/eep38.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_iva"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>

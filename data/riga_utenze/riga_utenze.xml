@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="riga_utenze_at" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera h)	Utenze in alta tensione</field>
+            <field name="tipo_uso_id" ref="tipo_uso_altri_usi"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_alta"></field>
+            
+        </record>
+
+        <record id="riga_utenze_aat_min380" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera i) Utenze in altissima tensione, con tensione inferiore a 380 kV</field>
+            <field name="tipo_uso_id" ref="tipo_uso_altri_usi"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_altissima"></field>
+            <field name="operatore_tensione_limite_superiore">&lt;</field>
+            <field name="tensione_limite_superiore">380</field>
+
+            
+        </record>
+
+        <record id="riga_utenze_aat_magg380" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera j) Utenze in altissima tensione, con tensione uguale o superiore a 380 kV</field>
+            <field name="tipo_uso_id" ref="tipo_uso_altri_usi"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_altissima"></field>
+            <field name="operatore_tensione_limite_inferiore">&gt;=</field>
+            <field name="tensione_limite_inferiore">380</field>
+
+            
+        </record>
+
+
+    </data>
+</openerp>
+

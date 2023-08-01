@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="colonna_01" model="aeegsi_energia.colonna">
+            <field name="descrizione">centesimi di euro/kWh</field>
+            <field name="nome">centesimi di euro/kWh</field>
+        </record>
+        <record id="colonna_02" model="aeegsi_energia.colonna">
+            <field name="descrizione">centesimi di euro/punto di prelievo per anno</field>
+            <field name="nome">centesimi di euro/punto di prelievo per anno</field>
+        </record>
+        <record id="colonna_03" model="aeegsi_energia.colonna">
+            <field name="descrizione">centesimi di euro / kW/anno</field>
+            <field name="nome">centesimi di euro / kW/anno</field>
+        </record>
+        <record id="colonna_04" model="aeegsi_energia.colonna">
+            <field name="descrizione">centesimi di euro/kvarh</field>
+            <field name="nome">centesimi di euro/kvarh</field>
+        </record>
+    </data>
+</openerp>

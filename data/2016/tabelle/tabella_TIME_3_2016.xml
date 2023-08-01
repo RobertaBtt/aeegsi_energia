@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="tabella_MISF_2016_3_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente costo misura MIS1, di cui all'articolo 12</field>
+            <field name="nome_file">654-15tab_TIME.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15tab_TIME.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_MISF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+    </data>
+</openerp>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_A4V_2016_2_01" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW per consumi annui fino a 1800 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3_minore1800"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.051</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_A4V_2016_2_02" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3_consumo2640"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.075</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_03" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3_consumooltre2640"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_A4V_2016_2_04" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW per consumi annui fino a 1800 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3_minore1800"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_05" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3_consumo2640"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_06" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3_consumooltre2640"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_A4V_2016_2_07" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: non residenti per consumi annui fino a 1800 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dnr_annuo1800"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_08" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: non residenti per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dnr_annuo2640"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_09" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera a)Utenza domestica in bassa tensione di cui: non residenti per consumi annui oltre 2640 kWh</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_dnr_annuooltre2640"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.108</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_A4V_2016_2_10" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.152</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_11" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera d)Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW con potenza impegnata non superiore a 1,5 kW</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_01"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.152</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_12" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera d)Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW con potenza impegnata superiore a 1,5 kW</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_011"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.152</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_13" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera d)Altre utenze in bassa tensione con potenza disponibile superiore a 16,5 kW con potenza impegnata non superiore a 1,5 kW</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt_pdmaggiore16_5"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.08</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_14" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera d) Altre utenze in bassa tensione con potenza disponibile superiore a 16,5 kW  con potenza impegnata  superiore a 1,5 kW</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt_pdmaggiore16_51"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.08</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_15" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.152</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_16" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.08</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_17" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.167</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_18" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera i) Utenze in altissima tensione, inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.167</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="valore_A4V_2016_2_19" model="aeegsi_energia.valore">
+            <field name="descrizione">A4 per lettera j) Utenze in altissima tensione, uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_A4V_2016_2_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_06"></field>
+            <field name="valore">0.167</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-03-31</field> <field name="data_fine_validita">2016-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+    </data>
+</openerp>
+

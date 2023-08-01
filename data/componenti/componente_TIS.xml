@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="componente_eo" model="aeegsi_energia.componente">
+            <field name="codice">EO</field>
+            <field name="descrizione">Corrispettivo a copertura dei costi della modulazione della produzione eolica (articolo 44bis del.111/06)</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+         <record id="componente_sic" model="aeegsi_energia.componente">
+            <field name="codice">SIC</field>
+            <field name="descrizione">Corrispettivo a copertura dei costi delle unità essenziali per la sicurezza del sistema (articolo 45 del.111/06)</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_salv" model="aeegsi_energia.componente">
+            <field name="codice">SALV</field>
+            <field name="descrizione">Corrispettivo unitario di reintegrazione oneri salvaguardia di cui all’articolo 25bis</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_ar" model="aeegsi_energia.componente">
+            <field name="codice">AR</field>
+            <field name="descrizione">Corrispettivo unitario relativo al quarto trimestre 2015 di cui all’articolo 44, comma 44.3 della deliberazione AEEG n. 111/06</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_agm" model="aeegsi_energia.componente">
+            <field name="codice">AGM</field>
+            <field name="descrizione">Corrispettivi unitari per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2.</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+    </data>
+</openerp>

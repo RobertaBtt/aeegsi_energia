@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_sub" model="aeegsi_energia.componente">
+            <field name="codice">SUB</field>
+            <field name="descrizione">Subentro</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_vol" model="aeegsi_energia.componente">
+            <field name="codice">VOL</field>
+            <field name="descrizione">Voltura</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_apbt" model="aeegsi_energia.componente">
+            <field name="codice">APBT</field>
+            <field name="descrizione">Aumento potenza Bassa tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_dpbt" model="aeegsi_energia.componente">
+            <field name="codice">DPBT</field>
+            <field name="descrizione">Diminuzione potenza Bassa tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_apmt" model="aeegsi_energia.componente">
+            <field name="codice">APMT</field>
+            <field name="descrizione">Aumento potenza Media Tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_dpmt" model="aeegsi_energia.componente">
+            <field name="codice">DPMT</field>
+            <field name="descrizione">Diminuzione potenza Media tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_vtgm" model="aeegsi_energia.componente">
+            <field name="codice">VTGM</field>
+            <field name="descrizione">Verifica tensione gruppo di misura</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_vgm" model="aeegsi_energia.componente">
+            <field name="codice">VGM</field>
+            <field name="descrizione">Verifica funzionamento gruppo di misura</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_ri" model="aeegsi_energia.componente">
+            <field name="codice">RI</field>
+            <field name="descrizione">Riallaccio</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_n3" model="aeegsi_energia.componente">
+            <field name="codice">N3</field>
+            <field name="descrizione">Nuovo allaccio 3 KW</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_n45" model="aeegsi_energia.componente">
+            <field name="codice">N45</field>
+            <field name="descrizione">Nuovo allaccio 4.5 KW</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_n6" model="aeegsi_energia.componente">
+            <field name="codice">N6</field>
+            <field name="descrizione">Nuovo allaccio 6 KW</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_d" model="aeegsi_energia.componente">
+            <field name="codice">D</field>
+            <field name="descrizione">Disconnessione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_mc" model="aeegsi_energia.componente">
+            <field name="codice">MC</field>
+            <field name="descrizione">Modifica Condizioni</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_afbt" model="aeegsi_energia.componente">
+            <field name="codice">AFBT</field>
+            <field name="descrizione">Aumento fasi tensione Bassa tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_dfbt" model="aeegsi_energia.componente">
+            <field name="codice">DFBT</field>
+            <field name="descrizione">Diminuzione fasi tensione Bassa tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+
+        <record id="componente_afmt" model="aeegsi_energia.componente">
+            <field name="codice">AFMT</field>
+            <field name="descrizione">Aumento fasi tensione Media tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_dfmt" model="aeegsi_energia.componente">
+            <field name="codice">DFMT</field>
+            <field name="descrizione">Diminuzione fasi tensione Media tensione</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+
+        <record id="componente_idf" model="aeegsi_energia.componente">
+            <field name="codice">IDF</field>
+            <field name="descrizione">Importi diritti fisso</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+    </data>
+</openerp>

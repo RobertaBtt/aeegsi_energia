@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="tabella_ArimVar_nonforteconsumo" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 6: Componente tariffario Variabile Arim Variabile per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">923-17tab.xls</field>
+            <field name="url_file">https://www.autorita.energia.it/allegati/docs/17/923-17tab.xls</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_ArimVar_nonforteconsumo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_ArimFisso_nonforteconsumo" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 6: Componente tariffario Arim Fisso per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">923-17tab.xls</field>
+            <field name="url_file">https://www.autorita.energia.it/allegati/docs/17/923-17tab.xls</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_ArimFisso_nonforteconsumo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_ArimPotenza_nonforteconsumo" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 6: Componente tariffario Arim Potenza per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">923-17tab.xls</field>
+            <field name="url_file">https://www.autorita.energia.it/allegati/docs/17/923-17tab.xls</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_ArimPotenza_nonforteconsumo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_AsosVar_nonforteconsumo" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile Asos Variabile per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">923-17tab.xls</field>
+            <field name="url_file">https://www.autorita.energia.it/allegati/docs/17/923-17tab.xls</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_AsosVar_nonforteconsumo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_AsosFisso_nonforteconsumo" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Asos Fisso per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">923-17tab.xls</field>
+            <field name="url_file">https://www.autorita.energia.it/allegati/docs/17/923-17tab.xls</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_AsosFisso_nonforteconsumo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_AsosPotenza_nonforteconsumo" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Asos Potenza per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">923-17tab.xls</field>
+            <field name="url_file">https://www.autorita.energia.it/allegati/docs/17/923-17tab.xls</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_AsosPotenza_nonforteconsumo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+    </data>
+</openerp>

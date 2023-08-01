@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_PER75_01" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera a) Utenze domestiche in bassa tensione</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_domestico"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">4.21</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_02" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera b) Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">4.21</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_03" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera c) Utenze in bassa tensione per alimentazione infrastrutture di ricarica pubblica di veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">4.21</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_04" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera d) Altre utenze in bassa tensione</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>            
+            <field name="valore">4.21</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_05" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">1.89</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_06" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">1.89</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="valore_PER75_07" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">1.10</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_08" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera i)	Utenze in altissima tensione, con tensione inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">1.10</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_PER75_09" model="aeegsi_energia.valore">
+            <field name="descrizione">Penale Energia reattiva eccedente il 75% dell’energia attiva per lettera j)	Utenze in altissima tensione, con tensione uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_5_PER_75"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_04"></field>
+            <field name="regola_colonna_id" ref="regola_colonna_02"></field>
+            <field name="valore">1.10</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kVarh"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>
+

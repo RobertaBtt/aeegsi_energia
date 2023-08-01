@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <!--Di questa tabella non c'è una url precisa perché il file cambia ogni mese, ma il componente é sempre lo stesso,-->
+        <!--quindi si riporta la url relativa a dove tutti i file di TERNA si troveranno-->
+
+        <record id="tabella_art_44bis_01_2018" model="aeegsi_energia.tabella">
+            <field name="titolo">Corrispettivo a copertura dei costi della modulazione della produzione eolica (articolo 44bis del.111/06)</field>
+            <field name="nome_file">http://www.terna.it/default/Home/SISTEMA_ELETTRICO/mercato_elettrico/documenti_mercato_elettrico.aspx</field>
+            <field name="url_file">http://www.terna.it/default/Home/SISTEMA_ELETTRICO/mercato_elettrico/documenti_mercato_elettrico.aspx</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_eo"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_art_45_01_2018" model="aeegsi_energia.tabella">
+            <field name="titolo">Corrispettivo a copertura dei costi delle unità essenziali per la sicurezza del sistema (articolo 45 del.111/06)</field>
+            <field name="nome_file">http://www.terna.it/default/Home/SISTEMA_ELETTRICO/mercato_elettrico/documenti_mercato_elettrico.aspx</field>
+            <field name="url_file">http://www.terna.it/default/Home/SISTEMA_ELETTRICO/mercato_elettrico/documenti_mercato_elettrico.aspx</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_sic"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_11_25bis_2018" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 Corrispettivo unitario di reintegrazione oneri salvaguardia di cui all’articolo 25bis</field>
+            <field name="nome_file">TIS.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/09/TIS.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">82</field>
+            <field name="componente_id" ref="componente_salv"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_art_44_2018_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Corrispettivo unitario relativo al trimestre 2018 di cui all’articolo 44, comma 44.3 della deliberazione AEEG n. 111/06</field>
+            <field name="nome_file">http://download.terna.it/terna.PDF</field>
+            <field name="url_file">http://download.terna.it/terna.PDF</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_ar"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_art_15_2018" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 Corrispettivi unitari per la determinazione del corrispettivo di cui all’articolo 15, comma 15.2</field>
+            <field name="nome_file">TIS.pdf</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/09/TIS.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">76</field>
+            <field name="componente_id" ref="componente_agm"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+
+    </data>
+</openerp>

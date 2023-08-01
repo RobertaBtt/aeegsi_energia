@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        
+        <record id="valore_TF_2017_56" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa anno 2017 (τ1) per D2 (residenti con potenza contrattuale minore o uguale a 3 kW)</field>
+            <field name="tabella_id" ref="tabella_TIT_10_T1_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1896</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_57" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa anno 2017 (τ1) per D3 (residenti con potenza contrattuale maggiore di 3 kW)</field>
+            <field name="tabella_id" ref="tabella_TIT_11_T1_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1896</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_58" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa anno 2017 (τ1) per D3 (non residenti)</field>
+            <field name="tabella_id" ref="tabella_TIT_11_T1_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1896</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_59" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera b) Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_60" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera c) Utenze in bassa tensione per alimentazione delle infrastrutture di ricarica pubblica per veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_61" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate inferiori o uguali a a 1.5 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_01"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">473.53</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_62" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 1.5 kW e inferiori o uguali a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_02_1"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">473.53</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_63" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 3 kW e inferiori o uguali a 6 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_03"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">473.53</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_64" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 6 kW e inferiori o uguali a 10 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_04"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">520.88</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_65" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 10 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_05"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">520.88</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_66" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera d) Altre utenze in bassa tensione con potenza disponibile superiore a 16,5 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt_pdmaggiore16_5_01"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">473.53</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_67" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_68" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera g) Altre utenze in media tensione con potenza disponibile fino a 100 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt100"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">44917.99</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_69" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera g) Altre utenze in media tensione con potenza disponibile superiore a 100 kW e inferiore o uguale a 500 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt_magg100"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">40426.18</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_70" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera g) Altre utenze in media tensione con potenza disponibile superiore a 500 kW </field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt500"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">39059.12</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_71" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1975469.01</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_72" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera i) Utenze in altissima tensione, con tensione inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1975469.01</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TF_2017_73" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Fissa per lettera j) Utenze in altissima tensione, con tensione uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_4F_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_02"></field>
+            <field name="valore">1975469.01</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2017-01-01</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+    </data>
+</openerp>
+

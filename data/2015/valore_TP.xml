@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_TP_2015_01" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza (τ2) per D2 (residenti con potenza contrattuale minore o uguale a 3 kW)</field>
+            <field name="tabella_id" ref="tabella_TIT_10_T2"></field>
+            <field name="riga_id" ref="riga_dr_minore3"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">660.00</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_02" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza (τ2) per D3 (residenti con potenza contrattuale maggiore di 3 kW)</field>
+            <field name="tabella_id" ref="tabella_TIT_11_T2"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">1599.64</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_03" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza (τ2) per D3 (non residenti)</field>
+            <field name="tabella_id" ref="tabella_TIT_11_T2"></field>
+            <field name="riga_id" ref="riga_dnr"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">1599.64</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_04" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera b) Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_05" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera c) Utenze in bassa tensione per alimentazione delle infrastrutture di ricarica pubblica per veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_06" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate inferiori o uguali a 1.5 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_01"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3242.26</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_07" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 1.5 kW e inferiori o uguali a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_02"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3070.72</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_08" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 3 kW e inferiori o uguali a 6 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_03"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3413.82</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_09" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 6 kW e inferiori o uguali a 10 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_04"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3413.82</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_10" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera d) Altre utenze in bassa tensione con potenza disponibile fino a 16,5 kW per potenze impegnate superiori a 10 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt16_5_05"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3413.82</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_11" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera d) Altre utenze in bassa tensione con potenza disponibile superiore a 16,5 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt_pdmaggiore16_5_01"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3242.26</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="valore_TP_2015_12" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_13" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera g) Altre utenze in media tensione con potenza disponibile fino a 100 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt100"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3666.49</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_14" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera g) Altre utenze in media tensione con potenza disponibile superiore a 100 kW e inferiore o uguale a 500 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt_magg100"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">3292.36</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_15" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera g) Altre utenze in media tensione con potenza disponibile superiore a 500 kW </field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt500"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">2888.30</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_16" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_17" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera i) Utenze in altissima tensione, con tensione inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TP_2015_18" model="aeegsi_energia.valore">
+            <field name="descrizione">Trasporto Quota Potenza per lettera j) Utenze in altissima tensione, con tensione uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_4P"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_03"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kW"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>
+

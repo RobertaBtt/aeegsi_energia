@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem name="AEEGSI Energia" id="base.aeegsi_energia_root" sequence="70" />
+        <menuitem name="AEEGSI Energia" id="menu_aeegsi_root" sequence="1" parent="base.aeegsi_energia_root" />
+
+        <menuitem string="Lista Valori"
+                  name="Lista Valori"
+                  id="menu_aeegsi_energia_valori"
+                  parent="menu_aeegsi_root"
+                  action="action_aeegsi_energia_valore"
+                  sequence="2" />
+
+        <menuitem string="Lista Componenti"
+                  name="Lista Componenti"
+                  id="menu_aeegsi_energia_componente"
+                  parent="menu_aeegsi_root"
+                  action="action_aeegsi_energia_componente"
+                  sequence="3" />
+
+        <menuitem string="Lista Tabelle"
+                  name="Lista Tabelle"
+                  id="menu_aeegsi_energia_tabelle"
+                  parent="menu_aeegsi_root"
+                  action="action_aeegsi_energia_tabella"
+                  sequence="4" />
+
+        <menuitem string="Lista Righe (utenze)"
+                  name="Lista Righe (utenze)"
+                  id="menu_aeegsi_energia_righe"
+                  parent="menu_aeegsi_root"
+                  action="action_aeegsi_energia_riga"
+                  sequence="5" />
+
+        <menuitem name="Configurazione base" id="menu_aeegsi_configurazione" sequence="6" parent="base.aeegsi_energia_root" />
+
+        <menuitem string="Tipi di Tensione"
+                  name="Tipo di Tensione"
+                  id="menu_aeegsi_energia_tipo_tensione"
+                  parent="menu_aeegsi_configurazione"
+                  action="action_aeegsi_energia_tipo_tensione"
+                  sequence="7" />
+
+        <menuitem string="Tipi di Uso"
+                  name="Tipi di Uso"
+                  id="menu_aeegsi_energia_tipo_uso"
+                  parent="menu_aeegsi_configurazione"
+                  action="action_aeegsi_energia_tipo_uso"
+                  sequence="8" />
+
+        <menuitem string="Tipi di Componente"
+                  name="Tipi di Componente"
+                  id="menu_aeegsi_energia_tipo_componente"
+                  parent="menu_aeegsi_configurazione"
+                  action="action_aeegsi_energia_tipo_componente"
+                  sequence="9" />
+
+        <menuitem string="Tipi di Colonne"
+                  name="Tipi di Colonne"
+                  id="menu_aeegsi_energia_colonne"
+                  parent="menu_aeegsi_configurazione"
+                  action="action_aeegsi_energia_colonna"
+                  sequence="10" />
+
+        <menuitem string="Regole Colonne"
+                  name="Regole Colonne"
+                  id="menu_aeegsi_energia_regole_colonne"
+                  parent="menu_aeegsi_configurazione"
+                  action="action_aeegsi_energia_regola_colonna"
+                  sequence="11" />
+
+    </data>
+</openerp>

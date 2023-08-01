@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="componente_accise" model="aeegsi_energia.componente">
+            <field name="codice">ACC</field>
+            <field name="descrizione">ACCISA - Imposta erariale</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+         <record id="componente_iva" model="aeegsi_energia.componente">
+            <field name="codice">IVA</field>
+            <field name="descrizione">IVA</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+    </data>
+</openerp>

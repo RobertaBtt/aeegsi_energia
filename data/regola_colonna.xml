@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="regola_colonna_01" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Energia reattiva compresa tra il 50 e il 75% dell’energia attiva</field>
+            <field name="valore_minimo">50</field>
+            <field name="valore_massimo">75</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="regola_colonna_02" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Energia reattiva eccedente il 75% dell’energia attiva</field>
+            <field name="valore_minimo">75</field>
+            <field name="valore_massimo">100</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="regola_colonna_06" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Per consumi mensili nei limiti di  4 GWh</field>
+            <field name="valore_minimo">0</field>
+            <field name="valore_massimo">4000000</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="regola_colonna_07" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Per consumi mensili in eccesso a 4 GWh e nei limiti di 8 GWh</field>
+            <field name="valore_minimo">4000000</field>
+            <field name="valore_massimo">8000000</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+         <record id="regola_colonna_08" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Per consumi mensili in eccesso a 8 GWh e nei limiti di 12 GWh</field>
+            <field name="valore_minimo">8000000</field>
+            <field name="valore_massimo">12000000</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="regola_colonna_09" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Per consumi mensili in eccesso a 12 GWh</field>
+            <field name="valore_minimo">12000000</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="regola_colonna_10" model="aeegsi_energia.regola_colonna">
+            <field name="descrizione">Energia reattiva compresa tra il 33 e il 75% dell’energia attiva</field>
+            <field name="valore_minimo">33</field>
+            <field name="valore_massimo">75</field>
+            <field name="valore_corrente"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+    </data>
+</openerp>

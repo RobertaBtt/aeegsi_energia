@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- List View -->
+        <record id="aeegsi_energia_colonna_tree_view" model="ir.ui.view">
+            <field name="name">aeegsi.energia.colonna.tree.view</field>
+            <field name="model">aeegsi_energia.colonna</field>
+            <field name="arch" type="xml">
+                <tree string="Righe">
+                    <field name="nome"/>
+                    <field name="descrizione"/>
+                </tree>
+            </field>
+        </record>
+
+
+     <!-- Form View -->
+        <record id="aeegsi_energia_colonna_form_view" model="ir.ui.view">
+            <field name="name">aeegsi.energia.colonna.form.view</field>
+            <field name="model">aeegsi_energia.colonna</field>
+            <field name="arch" type="xml">
+                <form string="Colonne" version="7.0">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="nome"/>
+                                <field name="descrizione"/>
+                                <!--<field name="creata_il"/>-->
+                                <!--<field name="aggiornata_il"/>-->
+                                <!--<field name="versione"/>-->
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- Action -->
+        <record id="action_aeegsi_energia_colonna" model="ir.actions.act_window">
+            <field name="name">Colonne</field>
+            <field name="res_model">aeegsi_energia.colonna</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id"  eval="False"/>
+            <field name="context">{}</field>
+            <field name="help"></field>
+        </record>
+	</data>
+</openerp>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+
+        <record id="tipo_uso_domestico" model="aeegsi_energia.tipo_uso">
+            <field name="etichetta">d</field>
+            <field name="descrizione">Domestico</field>
+        </record>
+
+        <record id="tipo_uso_domestico_residente" model="aeegsi_energia.tipo_uso">
+            <field name="etichetta">dr</field>
+            <field name="descrizione">Domestico residente</field>
+        </record>
+        <record id="tipo_uso_domestico_non_residente" model="aeegsi_energia.tipo_uso">
+            <field name="etichetta">dnr</field>
+            <field name="descrizione">Domestico non residente</field>
+        </record>
+        <record id="tipo_uso_altri_usi" model="aeegsi_energia.tipo_uso">
+            <field name="etichetta">au</field>
+            <field name="descrizione">Altri usi</field>
+        </record>
+
+        <record id="tipo_uso_illuminazione_pubblica" model="aeegsi_energia.tipo_uso">
+            <field name="etichetta">ip</field>
+            <field name="descrizione">Illuminazione Pubblica</field>
+        </record>
+
+        <record id="tipo_uso_non_specificato" model="aeegsi_energia.tipo_uso">
+            <field name="etichetta">ns</field>
+            <field name="descrizione">Non specificato</field>
+        </record>
+    </data>
+</openerp>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="tabella_MISF" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente costo misura MIS1, di cui all'articolo 8</field>
+            <field name="nome_file">610-14tab_TIME.xls</field>
+            <field name="url_file">www.autorita.energia.it/allegati/docs/14/610-14tab_TIME.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_MISF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_MISV" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente costo misura MIS3, di cui all'articolo 8</field>
+            <field name="nome_file">610-14tab_TIME.xls</field>
+            <field name="url_file">www.autorita.energia.it/allegati/docs/14/610-14tab_TIME.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">2</field>
+            <field name="componente_id" ref="componente_MISV"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>

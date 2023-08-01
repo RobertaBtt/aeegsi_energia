@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_SUB_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Subentro</field>
+            <field name="tabella_id" ref="tabella_TIC_subentro"></field>
+            <field name="valore">27.59</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_VOL_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Voltura</field>
+            <field name="tabella_id" ref="tabella_TIC_voltura"></field>
+            <field name="valore">27.59</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_APBT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Aumento potenza Bassa tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_aumento_pot_BT"></field>
+            <field name="valore">69.22</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_APMT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Aumento potenza Media tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_aumento_pot_MT"></field>
+            <field name="valore">69.22</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_DPBT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Riduzione potenza Bassa tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_dim_pot_BT"></field>
+            <field name="valore">69.22</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_DPMT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Riduzione potenza Media tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_dim_pot_MT"></field>
+            <field name="valore">69.22</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_VTGM_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Verifica tensione gruppo di misura</field>
+            <field name="tabella_id" ref="tabella_TIC_ver_tensione"></field>
+            <field name="valore">149.10</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_VGM_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Verifica funzionamento gruppo di misura</field>
+            <field name="tabella_id" ref="tabella_TIC_ver_funzionamento"></field>
+            <field name="valore">49.70</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_RI_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Riallaccio</field>
+            <field name="tabella_id" ref="tabella_TIC_riallaccio"></field>
+            <field name="valore">50</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_N3_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Nuovo allaccio 3 KW</field>
+            <field name="tabella_id" ref="tabella_TIC_nuovo3"></field>
+            <field name="valore">475.13</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_N45_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Nuovo allaccio 4.5 KW</field>
+            <field name="tabella_id" ref="tabella_TIC_nuovo45"></field>
+            <field name="valore">608.70</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_N6_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Nuovo allaccio 6 KW</field>
+            <field name="tabella_id" ref="tabella_TIC_nuovo6"></field>
+            <field name="valore">768.56</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_D_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Disconnessione</field>
+            <field name="tabella_id" ref="tabella_TIC_disc"></field>
+            <field name="valore">27.59</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_MC_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Modifica Condizioni</field>
+            <field name="tabella_id" ref="tabella_TIC_mod_cond"></field>
+            <field name="valore">27.59</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_AFBT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Aumento fasi tensione Bassa tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_aumento_fasi_BT"></field>
+            <field name="valore">50.0</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="valore_AFMT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Aumento fasi tensione Media tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_aumento_fasi_MT"></field>
+            <field name="valore">50.0</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_DFBT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Riduzione fasi tensione Bassa tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_dim_fasi_BT"></field>
+            <field name="valore">50.0</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_DFMT_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Riduzione fasi tensione Media tensione</field>
+            <field name="tabella_id" ref="tabella_TIC_dim_fasi_MT"></field>
+            <field name="valore">50.0</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_IDF_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Importi diritti fisso</field>
+            <field name="tabella_id" ref="tabella_TIC_diritti_fisso"></field>
+            <field name="valore">27.59</field>
+            <field name="tipo_valore_euro">1</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_punto_prelievo"></field>
+            <field name="data_inizio_validita">2015-01-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+    </data>
+</openerp>
+

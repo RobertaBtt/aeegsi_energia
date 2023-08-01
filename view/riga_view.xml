@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- List View -->
+        <record id="aeegsi_energia_riga_tree_view" model="ir.ui.view">
+            <field name="name">aeegsi.energia.riga.tree.view</field>
+            <field name="model">aeegsi_energia.riga</field>
+            <field name="arch" type="xml">
+                <tree string="Righe">
+                    <field name="descrizione"/>
+                    <field name="tipo_uso_id"/>
+                    <field name="tipo_tensione_id"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- Form View -->
+        <record id="aeegsi_energia_riga_form_view" model="ir.ui.view">
+            <field name="name">aeegsi.energia.riga.form.view</field>
+            <field name="model">aeegsi_energia.riga</field>
+            <field name="arch" type="xml">
+                <form string="Righe" version="7.0">
+                    <sheet>
+
+                        <group>
+                            <group>
+                                <field name="descrizione"/>
+                                <field name="tipo_uso_id"/>
+                                <field name="tipo_tensione_id"/>
+                            </group>
+                            <group>
+                                <!--<field name="creata_il"/>-->
+                                <!--<field name="aggiornata_il"/>-->
+                                <!--<field name="versione"/>-->
+                            </group>
+                        </group>
+
+                        <group string="Potenza Impegnata">
+                            <group>
+                                <field name="operatore_potenza_impegnata_limite_inferiore"/>
+                                <field name="operatore_potenza_impegnata_limite_superiore"/>
+                            </group>
+                            <group>
+                                <field name="potenza_impegnata_limite_inferiore"/>
+                                <field name="potenza_impegnata_limite_superiore"/>
+                            </group>
+                        </group>
+
+                        <group string="Potenza Disponibile">
+                            <group>
+                                <field name="operatore_potenza_disponibile_limite_inferiore"/>
+                                <field name="operatore_potenza_disponibile_limite_superiore"/>
+                            </group>
+                            <group>
+                                <field name="potenza_disponibile_limite_inferiore"/>
+                                <field name="potenza_disponibile_limite_superiore"/>
+                            </group>
+                        </group>
+
+                        <group string="Tensione">
+                            <group>
+                                <field name="operatore_tensione_limite_inferiore"/>
+                                <field name="operatore_tensione_limite_superiore"/>
+                            </group>
+                            <group>
+                                <field name="tensione_limite_inferiore"/>
+                                <field name="tensione_limite_superiore"/>
+                            </group>
+                        </group>
+                        <group string="Consumo annuo">
+                            <group>
+                                <field name="operatore_consumo_annuo_limite_inferiore"/>
+                                <field name="operatore_consumo_annuo_limite_superiore"/>
+                            </group>
+                            <group>
+                                <field name="consumo_annuo_limite_inferiore"/>
+                                <field name="consumo_annuo_limite_superiore"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- Action -->
+        <record id="action_aeegsi_energia_riga" model="ir.actions.act_window">
+            <field name="name">righe</field>
+            <field name="res_model">aeegsi_energia.riga</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id"  eval="False"/>
+            <field name="context">{}</field>
+            <field name="help"></field>
+        </record>
+    </data>
+</openerp>

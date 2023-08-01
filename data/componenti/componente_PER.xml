@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_PER_01" model="aeegsi_energia.componente">
+            <field name="codice">PER</field>
+            <field name="descrizione">Penale energia reattiva compresa tra il 50 e il 75% dell’energia attiva</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_PER_02" model="aeegsi_energia.componente">
+            <field name="codice">PER</field>
+            <field name="descrizione">Penale energia reattiva eccedente il 75% dell’energia attiva</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_PER_03" model="aeegsi_energia.componente">
+            <field name="codice">PER</field>
+            <field name="descrizione">Penale energia reattiva compresa tra il 33 e il 75% dell’energia attiva</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+    </data>
+</openerp>

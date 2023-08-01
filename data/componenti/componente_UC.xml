@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_UC3V" model="aeegsi_energia.componente">
+            <field name="codice">UC3</field>
+            <field name="descrizione">Componente tariffaria UC3</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_UC3F" model="aeegsi_energia.componente">
+            <field name="codice">UC3</field>
+            <field name="descrizione">Componente tariffaria UC3</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_UC6V" model="aeegsi_energia.componente">
+            <field name="codice">UC6</field>
+            <field name="descrizione">Componente tariffaria UC6 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_UC6F" model="aeegsi_energia.componente">
+            <field name="codice">UC6</field>
+            <field name="descrizione">Componente tariffaria UC6 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+        <record id="componente_UC6P" model="aeegsi_energia.componente">
+            <field name="codice">UC6</field>
+            <field name="descrizione">Componente tariffaria UC6 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_potenza"></field>
+        </record>
+
+        <record id="componente_UC7var" model="aeegsi_energia.componente">
+            <field name="codice">UC7</field>
+            <field name="descrizione">Componente tariffaria UC7
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_UC7fisso" model="aeegsi_energia.componente">
+            <field name="codice">UC7</field>
+            <field name="descrizione">Componente tariffaria UC7
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <!--Nella titolarità di imprese a forte consumo di energia-->
+        <record id="componente_UC7var02" model="aeegsi_energia.componente">
+            <field name="codice">UC7</field>
+            <field name="descrizione">Componente tariffaria UC7 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_UC7fisso_02" model="aeegsi_energia.componente">
+            <field name="codice">UC7</field>
+            <field name="descrizione">Componente tariffaria UC7 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_UC4var" model="aeegsi_energia.componente">
+            <field name="codice">UC4</field>
+            <field name="descrizione">Componente tariffaria UC4
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_UC4fisso" model="aeegsi_energia.componente">
+            <field name="codice">UC4</field>
+            <field name="descrizione">Componente tariffaria UC4
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <!--Nella titolarità di imprese a forte consumo di energia-->
+        <record id="componente_UC4var02" model="aeegsi_energia.componente">
+            <field name="codice">UC4</field>
+            <field name="descrizione">Componente tariffaria UC4 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_UC4fisso_02" model="aeegsi_energia.componente">
+            <field name="codice">UC4</field>
+            <field name="descrizione">Componente tariffaria UC4 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+    </data>
+</openerp>

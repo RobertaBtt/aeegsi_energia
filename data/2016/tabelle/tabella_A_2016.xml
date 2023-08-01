@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="tabella_A01_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Fisse A2 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A2fisso"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_A02_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile A2 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A2var"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_A3F_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Fisso A3 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A3fisso"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_A3V_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile A3 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A3var"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_A4F_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Fisso A4 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A4fisso"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_A4V_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile A4 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A4var"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_A5F_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Fisso A5 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A5fisso"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_A5V_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile A5 per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_A5var"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_ASF_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Fisso AS per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_ASfisso"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_ASV_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile AS per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_ASvar"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_AEF_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Fisso AE per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_AEfisso"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        <record id="tabella_AEV_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1: Componente tariffario Variabile AE per le utenze in bassa tensione e per le utenze in media, alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="nome_file">657-15tab12.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/dati_documenti/prezzi//657-15tab12.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_AEvar"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+    </data>
+</openerp>

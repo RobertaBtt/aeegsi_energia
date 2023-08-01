@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_A2fisso" model="aeegsi_energia.componente">
+            <field name="codice">A2</field>
+            <field name="descrizione">Componente tariffaria A2
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A3fisso" model="aeegsi_energia.componente">
+            <field name="codice">A3</field>
+            <field name="descrizione">Componente tariffaria A3
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A4fisso" model="aeegsi_energia.componente">
+            <field name="codice">A4</field>
+            <field name="descrizione">Componente tariffaria A4
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A5fisso" model="aeegsi_energia.componente">
+            <field name="codice">A5</field>
+            <field name="descrizione">Componente tariffaria A5
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_ASfisso" model="aeegsi_energia.componente">
+            <field name="codice">AS</field>
+            <field name="descrizione">Componente tariffaria AS
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_AEfisso" model="aeegsi_energia.componente">
+            <field name="codice">AE</field>
+            <field name="descrizione">Componente tariffaria AE
+                per le utenze in bassa tensione e per le utenze in media,
+                alta e altissima tensione che non sono nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A2fisso_02" model="aeegsi_energia.componente">
+            <field name="codice">A2</field>
+            <field name="descrizione">Componente tariffaria A2 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A3fisso_02" model="aeegsi_energia.componente">
+            <field name="codice">A3</field>
+            <field name="descrizione">Componente tariffaria A3 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A4fisso_02" model="aeegsi_energia.componente">
+            <field name="codice">A4</field>
+            <field name="descrizione">Componente tariffaria A4 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_A5fisso_02" model="aeegsi_energia.componente">
+            <field name="codice">A5</field>
+            <field name="descrizione">Componente tariffaria A5 per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_ASfisso_02" model="aeegsi_energia.componente">
+            <field name="codice">AS</field>
+            <field name="descrizione">Componente tariffaria AS per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_AEfisso_02" model="aeegsi_energia.componente">
+            <field name="codice">AE</field>
+            <field name="descrizione">Componente tariffaria AE per le utenze in  media, alta e altissima tensione nella titolarità di imprese a forte consumo di energia elettrica</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+    </data>
+</openerp>

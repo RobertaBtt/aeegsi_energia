@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+	
+        <record id="tabella_5_PER_33_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 5: Corrispettivi per prelievi di energia reattiva</field>
+            <field name="nome_file">654-15tabTIT.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15tab_TIT.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">5</field>
+            <field name="componente_id" ref="componente_PER_03"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+		
+        <record id="tabella_5_PER_50" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 5: Corrispettivi per prelievi di energia reattiva</field>
+            <field name="nome_file">654-15tabTIT.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15tab_TIT.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">5</field>
+            <field name="componente_id" ref="componente_PER_01"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_5_PER_75_2016" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 5: Corrispettivi per prelievi di energia reattiva</field>
+            <field name="nome_file">654-15tabTIT.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15tab_TIT.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">5</field>
+            <field name="componente_id" ref="componente_PER_02"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_10_T1_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 10 - Componente Trasporto Quota Fissa (τ1) della tariffa D2 di cui al comma 31.1</field>
+            <field name="nome_file">242_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/242_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_10_T2_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 10 - Componente Trasporto Quota Potenza (τ2) della tariffa D2 di cui al comma 31.1</field>
+            <field name="nome_file">242_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/242_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TP"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_TIT_10_T3_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 10 - Componente Trasporto Quota Energia (τ3) della tariffa D2 di cui al comma 31.1</field>
+            <field name="nome_file">242_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/242_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TE"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_TIT_11_T1_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 - Componente Trasporto Quota Fissa (τ1) della tariffa D3 di cui al comma 31.1</field>
+            <field name="nome_file">243_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/243_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_11_T2_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 -  Componente Trasporto Quota Potenza (τ2) della tariffa D3 di cui al comma 31.1</field>
+            <field name="nome_file">243_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/243_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TP"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="tabella_TIT_11_T3_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 11 - Componente Trasporto Quota Energia (τ3) della tariffa D3 di cui al comma 31.1</field>
+            <field name="nome_file">243_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/243_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">2</field>
+            <field name="componente_id" ref="componente_TE"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_4F_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 3 - Componente Trasporto Quota Fissa articolo 9</field>
+            <field name="nome_file">241_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/241_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TF"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_4P_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 3 - Componente Trasporto Quota Potenza articolo 9</field>
+            <field name="nome_file">241_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/241_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TP"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="tabella_TIT_4E_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 3 - Componente Trasporto Quota Energia articolo 9</field>
+            <field name="nome_file">241_NewsFile.pdf</field>
+            <field name="url_file">http://www.ceis-stenico.it/clientfiles/upload/241_NewsFile.pdf</field>
+            <field name="tipo_file">pdf</field>
+            <field name="n_pag">1</field>
+            <field name="componente_id" ref="componente_TE"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+
+        <record id="tabella_TIT_TRASe_2016_1_01" model="aeegsi_energia.tabella">
+            <field name="titolo">Tabella 1 : Componenti TRAS per il servizio di trasmissione per i clienti finali</field>
+            <field name="nome_file">654-15tab.xls</field>
+            <field name="url_file">http://www.autorita.energia.it/allegati/docs/15/654-15tab_TIT.xls</field>
+            <field name="tipo_file">xls</field>
+            <field name="n_tab">1</field>
+            <field name="componente_id" ref="componente_TRAS_e"></field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+    </data>
+</openerp>

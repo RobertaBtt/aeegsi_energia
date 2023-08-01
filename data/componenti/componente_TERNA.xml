@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_terna_art46" model="aeegsi_energia.componente">
+            <field name="codice">TERNA</field>
+            <field name="descrizione">Corrispettivo a copertura dei costi riconosciuti per il funzionamento di Terna (articolo 46)</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_terna_art48" model="aeegsi_energia.componente">
+            <field name="codice">DCP</field>
+            <field name="descrizione">Corrispettivo a copertura dei costi per la remunerazione della capacità produttiva (articolo 48)</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+        <record id="componente_terna_art73" model="aeegsi_energia.componente">
+            <field name="codice">IC</field>
+            <field name="descrizione">Corrispettivo a copertura dei costi per la remunerazione del servizio di interrompibilità del carico (articolo 73)</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+    </data>
+</openerp>

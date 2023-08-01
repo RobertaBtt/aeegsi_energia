@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="valore_TERNA_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo a copertura dei costi riconosciuti per il funzionamento di Terna (articolo 46)</field>
+            <field name="tabella_id" ref="tabella_9_art46"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0439</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_DCP_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo a copertura dei costi per la remunerazione della capacità produttiva (articolo 48)</field>
+            <field name="tabella_id" ref="tabella_2_art48"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.0669</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_IC_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo a copertura dei costi per la remunerazione del servizio di interrompibilità del carico (articolo 73))</field>
+            <field name="tabella_id" ref="tabella_3_art73"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.1718</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_AR_2015" model="aeegsi_energia.valore">
+            <field name="descrizione">Corrispettivo unitario approvvigionamento risorse relativo al quarto trimestre 2015 di cui all’articolo 44, comma 44.3</field>
+            <field name="tabella_id" ref="tabella_art_44"></field>
+            <field name="riga_id" ref="riga_generica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.2080000</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2015-10-01</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="data_fine_validita">2015-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+    </data>
+</openerp>
+

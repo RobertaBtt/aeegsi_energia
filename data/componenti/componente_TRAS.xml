@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_TRAS_e" model="aeegsi_energia.componente">
+            <field name="codice">TRASe</field>
+            <field name="descrizione">Tabella 1 : Componente TRAS per il servizio di trasmissione per i clienti finali</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+        <record id="componente_TRAS_p" model="aeegsi_energia.componente">
+            <field name="codice">TRASp</field>
+            <field name="descrizione">Tabella 1 : Componente TRASP per il servizio di trasmissione per i clienti finali</field>
+            <field name="tipo_componente_id" ref="tipo_componente_potenza"></field>
+        </record>
+
+    </data>
+</openerp>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="componente_TF" model="aeegsi_energia.componente">
+            <field name="codice">TF</field>
+            <field name="descrizione">Componente Trasporto Quota Fissa</field>
+            <field name="tipo_componente_id" ref="tipo_componente_fisso"></field>
+        </record>
+
+        <record id="componente_TP" model="aeegsi_energia.componente">
+            <field name="codice">TP</field>
+            <field name="descrizione">Componente Trasporto Quota Potenza</field>
+            <field name="tipo_componente_id" ref="tipo_componente_potenza"></field>
+        </record>
+
+        <record id="componente_TE" model="aeegsi_energia.componente">
+            <field name="codice">TE</field>
+            <field name="descrizione">Componente Trasporto Quota Energia</field>
+            <field name="tipo_componente_id" ref="tipo_componente_variabile"></field>
+        </record>
+
+    </data>
+</openerp>

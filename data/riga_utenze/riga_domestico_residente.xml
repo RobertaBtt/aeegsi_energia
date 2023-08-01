@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <!--Questo record viene usato solo nelle utenze domestiche-->
+        <record id="riga_domestico" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a) Utenza domestica in bassa tensione</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+        </record>
+
+        <record id="riga_dr_minore3" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+        </record>
+
+
+
+        <record id="riga_dr_minore3_consumo900" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui da 0 a 900 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">0</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">900</field>
+
+        </record>
+
+        <record id="riga_dr_minore3_minore1800" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui da 0 a 1800 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">0</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">1800</field>
+        </record>
+
+        <record id="riga_dr_minore3_consumo1800" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 900 kWh e fino a 1800 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">901</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">1800</field>
+
+            
+        </record>
+
+        <record id="riga_dr_minore3_consumo2640" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">1801</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">2640</field>
+
+            
+        </record>
+
+        <record id="riga_dr_minore3_consumooltre2640" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 2640 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">2640</field>
+
+            
+        </record>
+
+
+        <record id="riga_dr_minore3_consumo3540" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 2640 kWh e fino a 3540 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">2641</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">3540</field>
+        </record>
+
+        <record id="riga_dr_minore3_consumo4440" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 3540 kWh e fino a 4440 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">3541</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">4440</field>
+        </record>
+
+        <record id="riga_dr_minore3_consumo_oltre4440" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata non superiore a 3 kW per consumi annui oltre 4440 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_impegnata_limite_superiore">&lt;=</field>
+            <field name="potenza_impegnata_limite_superiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">4441</field>
+
+        </record>
+
+
+        <record id="riga_dr_maggiore3" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+            
+        </record>
+
+        <record id="riga_dr_maggiore3_consumo900" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui da 0 a 900 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">0</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">900</field>
+        </record>
+
+        <record id="riga_dr_maggiore3_minore1800" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui da 0 a 1800 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">0</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">1800</field>
+        </record>
+
+
+        <record id="riga_dr_maggiore3_consumo1800" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 900 kWh e fino a 1800 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">901</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">1800</field>
+
+            
+        </record>
+
+        <record id="riga_dr_maggiore3_consumo2640" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 1800 kWh e fino a 2640 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">1801</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">2640</field>
+
+            
+        </record>
+
+       <record id="riga_dr_maggiore3_consumooltre2640" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 2640 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">2640</field>
+
+
+            
+        </record>
+
+       <record id="riga_dr_maggiore3_consumo3540" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 2640 kWh e fino a 3540 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">2641</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">3540</field>
+
+        </record>
+
+
+        <record id="riga_dr_maggiore3_consumo4440" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 3540 kWh e fino a 4440 kWh</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">3541</field>
+            <field name="operatore_consumo_annuo_limite_superiore">&lt;=</field>
+            <field name="consumo_annuo_limite_superiore">4440</field>
+
+            
+        </record>
+
+        <record id="riga_dr_maggiore3_consumo_oltre4440" model="aeegsi_energia.riga">
+            <field name="descrizione">lettera a)	Utenza domestica in bassa tensione residenti con potenza impegnata superiore a 3 kW per consumi annui oltre 4440</field>
+            <field name="tipo_uso_id" ref="tipo_uso_domestico_residente"></field>
+            <field name="tipo_tensione_id" ref="tipo_tensione_bassa"></field>
+
+            <field name="operatore_potenza_impegnata_limite_inferiore">&gt;</field>
+            <field name="potenza_impegnata_limite_inferiore">3</field>
+
+            <field name="operatore_consumo_annuo_limite_inferiore">&gt;=</field>
+            <field name="consumo_annuo_limite_inferiore">4441</field>
+
+            
+        </record>
+    </data>
+</openerp>

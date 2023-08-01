@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        
+        <record id="valore_TRASe_2017_01" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+        
+        <record id="valore_TRASe_2017_02" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_03" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: non residenti</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_04" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_05" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera c) Utenze in bassa tensione per alimentazione infrastrutture di ricarica pubblica di veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="valore_TRASe_2017_06" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera d)	Altre utenze in bassa tensione </field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_07" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_08" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_09" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.066</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_10" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera i) Utenze in altissima tensione, inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_11" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera j) Utenze in altissima tensione, uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2016-12-31</field>
+            <field name="data_fine_validita">2017-03-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_12" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_13" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_14" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: non residenti</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_15" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_16" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera c) Utenze in bassa tensione per alimentazione infrastrutture di ricarica pubblica di veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="valore_TRASe_2017_17" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera d)	Altre utenze in bassa tensione </field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_18" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_19" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_20" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.066</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_21" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera i) Utenze in altissima tensione, inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_22" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera j) Utenze in altissima tensione, uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-03-31</field>
+            <field name="data_fine_validita">2017-06-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="valore_TRASe_2017_23" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_24" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_25" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: non residenti</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_26" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_27" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera c) Utenze in bassa tensione per alimentazione infrastrutture di ricarica pubblica di veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_28" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera d)	Altre utenze in bassa tensione </field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_29" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_30" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_31" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.066</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_32" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera i) Utenze in altissima tensione, inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_33" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera j) Utenze in altissima tensione, uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-06-30</field>
+            <field name="data_fine_validita">2017-09-30</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+
+        <record id="valore_TRASe_2017_34" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata non superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_minore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_35" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: residenti con potenza impegnata superiore a 3 kW</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dr_maggiore3"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_36" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera a) Utenza domestica in bassa tensione di cui: non residenti</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_dnr"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_37" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera b)	Utenze in bassa tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_bt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_38" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera c) Utenze in bassa tensione per alimentazione infrastrutture di ricarica pubblica di veicoli elettrici</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_ricarica_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_39" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera d)	Altre utenze in bassa tensione </field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_bt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.719</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_40" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera e) Utenze in media tensione di illuminazione pubblica</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_mt_ill_pubblica"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_41" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera g) Altre utenze in media tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_altre_utenze_mt"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.670</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_42" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera h) Utenze in alta tensione</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_at"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.066</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_43" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera i) Utenze in altissima tensione, inferiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_min380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+
+        <record id="valore_TRASe_2017_44" model="aeegsi_energia.valore">
+            <field name="descrizione">TRASe per lettera j) Utenze in altissima tensione, uguale o superiore a 380 kV</field>
+            <field name="tabella_id" ref="tabella_TIT_TRASe_2017_1_01"></field>
+            <field name="riga_id" ref="riga_utenze_aat_magg380"></field>
+            <field name="colonna_id" ref="colonna_01"></field>
+            <field name="valore">0.065</field>
+            <field name="tipo_valore_euro">100</field>
+            <field name="unita_di_misura_id" ref="tipo_unita_misura_kWh"></field>
+            <field name="data_inizio_validita">2017-09-30</field>
+            <field name="data_fine_validita">2017-12-31</field>
+            <field name="creata_il" eval="(DateTime.now())"></field>
+        </record>
+    </data>
+</openerp>
+
